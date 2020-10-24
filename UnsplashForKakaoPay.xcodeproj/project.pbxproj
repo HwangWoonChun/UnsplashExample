@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BADFA8B2543C1CD00BE05D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BADFA8A2543C1CD00BE05D0 /* AppDelegate.swift */; };
+		4BADFA8D2543C1CD00BE05D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BADFA8C2543C1CD00BE05D0 /* SceneDelegate.swift */; };
+		4BADFA8F2543C1CD00BE05D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BADFA8E2543C1CD00BE05D0 /* ViewController.swift */; };
+		4BADFA922543C1CD00BE05D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BADFA902543C1CD00BE05D0 /* Main.storyboard */; };
+		4BADFA942543C1CD00BE05D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BADFA932543C1CD00BE05D0 /* Assets.xcassets */; };
+		4BADFA972543C1CD00BE05D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BADFA952543C1CD00BE05D0 /* LaunchScreen.storyboard */; };
+		4BADFAA22543C1CE00BE05D0 /* UnsplashForKakaoPayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BADFAA12543C1CE00BE05D0 /* UnsplashForKakaoPayTests.swift */; };
+		4BADFAAD2543C1CE00BE05D0 /* UnsplashForKakaoPayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BADFAAC2543C1CE00BE05D0 /* UnsplashForKakaoPayUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4BADFA9E2543C1CE00BE05D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BADFA7F2543C1CD00BE05D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BADFA862543C1CD00BE05D0;
+			remoteInfo = UnsplashForKakaoPay;
+		};
+		4BADFAA92543C1CE00BE05D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BADFA7F2543C1CD00BE05D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BADFA862543C1CD00BE05D0;
+			remoteInfo = UnsplashForKakaoPay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4BADFA872543C1CD00BE05D0 /* UnsplashForKakaoPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnsplashForKakaoPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BADFA8A2543C1CD00BE05D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4BADFA8C2543C1CD00BE05D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4BADFA8E2543C1CD00BE05D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4BADFA912543C1CD00BE05D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4BADFA932543C1CD00BE05D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BADFA962543C1CD00BE05D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4BADFA982543C1CD00BE05D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BADFA9D2543C1CE00BE05D0 /* UnsplashForKakaoPayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnsplashForKakaoPayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BADFAA12543C1CE00BE05D0 /* UnsplashForKakaoPayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashForKakaoPayTests.swift; sourceTree = "<group>"; };
+		4BADFAA32543C1CE00BE05D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BADFAA82543C1CE00BE05D0 /* UnsplashForKakaoPayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnsplashForKakaoPayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BADFAAC2543C1CE00BE05D0 /* UnsplashForKakaoPayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashForKakaoPayUITests.swift; sourceTree = "<group>"; };
+		4BADFAAE2543C1CE00BE05D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BADFA842543C1CD00BE05D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BADFA9A2543C1CE00BE05D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BADFAA52543C1CE00BE05D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BADFA7E2543C1CD00BE05D0 = {
+			isa = PBXGroup;
+			children = (
+				4BADFA892543C1CD00BE05D0 /* UnsplashForKakaoPay */,
+				4BADFAA02543C1CE00BE05D0 /* UnsplashForKakaoPayTests */,
+				4BADFAAB2543C1CE00BE05D0 /* UnsplashForKakaoPayUITests */,
+				4BADFA882543C1CD00BE05D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4BADFA882543C1CD00BE05D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BADFA872543C1CD00BE05D0 /* UnsplashForKakaoPay.app */,
+				4BADFA9D2543C1CE00BE05D0 /* UnsplashForKakaoPayTests.xctest */,
+				4BADFAA82543C1CE00BE05D0 /* UnsplashForKakaoPayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BADFA892543C1CD00BE05D0 /* UnsplashForKakaoPay */ = {
+			isa = PBXGroup;
+			children = (
+				4BADFA8A2543C1CD00BE05D0 /* AppDelegate.swift */,
+				4BADFA8C2543C1CD00BE05D0 /* SceneDelegate.swift */,
+				4BADFA8E2543C1CD00BE05D0 /* ViewController.swift */,
+				4BADFA902543C1CD00BE05D0 /* Main.storyboard */,
+				4BADFA932543C1CD00BE05D0 /* Assets.xcassets */,
+				4BADFA952543C1CD00BE05D0 /* LaunchScreen.storyboard */,
+				4BADFA982543C1CD00BE05D0 /* Info.plist */,
+			);
+			path = UnsplashForKakaoPay;
+			sourceTree = "<group>";
+		};
+		4BADFAA02543C1CE00BE05D0 /* UnsplashForKakaoPayTests */ = {
+			isa = PBXGroup;
+			children = (
+				4BADFAA12543C1CE00BE05D0 /* UnsplashForKakaoPayTests.swift */,
+				4BADFAA32543C1CE00BE05D0 /* Info.plist */,
+			);
+			path = UnsplashForKakaoPayTests;
+			sourceTree = "<group>";
+		};
+		4BADFAAB2543C1CE00BE05D0 /* UnsplashForKakaoPayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4BADFAAC2543C1CE00BE05D0 /* UnsplashForKakaoPayUITests.swift */,
+				4BADFAAE2543C1CE00BE05D0 /* Info.plist */,
+			);
+			path = UnsplashForKakaoPayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BADFA862543C1CD00BE05D0 /* UnsplashForKakaoPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BADFAB12543C1CE00BE05D0 /* Build configuration list for PBXNativeTarget "UnsplashForKakaoPay" */;
+			buildPhases = (
+				4BADFA832543C1CD00BE05D0 /* Sources */,
+				4BADFA842543C1CD00BE05D0 /* Frameworks */,
+				4BADFA852543C1CD00BE05D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnsplashForKakaoPay;
+			productName = UnsplashForKakaoPay;
+			productReference = 4BADFA872543C1CD00BE05D0 /* UnsplashForKakaoPay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4BADFA9C2543C1CE00BE05D0 /* UnsplashForKakaoPayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BADFAB42543C1CE00BE05D0 /* Build configuration list for PBXNativeTarget "UnsplashForKakaoPayTests" */;
+			buildPhases = (
+				4BADFA992543C1CE00BE05D0 /* Sources */,
+				4BADFA9A2543C1CE00BE05D0 /* Frameworks */,
+				4BADFA9B2543C1CE00BE05D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BADFA9F2543C1CE00BE05D0 /* PBXTargetDependency */,
+			);
+			name = UnsplashForKakaoPayTests;
+			productName = UnsplashForKakaoPayTests;
+			productReference = 4BADFA9D2543C1CE00BE05D0 /* UnsplashForKakaoPayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4BADFAA72543C1CE00BE05D0 /* UnsplashForKakaoPayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BADFAB72543C1CE00BE05D0 /* Build configuration list for PBXNativeTarget "UnsplashForKakaoPayUITests" */;
+			buildPhases = (
+				4BADFAA42543C1CE00BE05D0 /* Sources */,
+				4BADFAA52543C1CE00BE05D0 /* Frameworks */,
+				4BADFAA62543C1CE00BE05D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BADFAAA2543C1CE00BE05D0 /* PBXTargetDependency */,
+			);
+			name = UnsplashForKakaoPayUITests;
+			productName = UnsplashForKakaoPayUITests;
+			productReference = 4BADFAA82543C1CE00BE05D0 /* UnsplashForKakaoPayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BADFA7F2543C1CD00BE05D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					4BADFA862543C1CD00BE05D0 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					4BADFA9C2543C1CE00BE05D0 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 4BADFA862543C1CD00BE05D0;
+					};
+					4BADFAA72543C1CE00BE05D0 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 4BADFA862543C1CD00BE05D0;
+					};
+				};
+			};
+			buildConfigurationList = 4BADFA822543C1CD00BE05D0 /* Build configuration list for PBXProject "UnsplashForKakaoPay" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BADFA7E2543C1CD00BE05D0;
+			productRefGroup = 4BADFA882543C1CD00BE05D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BADFA862543C1CD00BE05D0 /* UnsplashForKakaoPay */,
+				4BADFA9C2543C1CE00BE05D0 /* UnsplashForKakaoPayTests */,
+				4BADFAA72543C1CE00BE05D0 /* UnsplashForKakaoPayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BADFA852543C1CD00BE05D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BADFA972543C1CD00BE05D0 /* LaunchScreen.storyboard in Resources */,
+				4BADFA942543C1CD00BE05D0 /* Assets.xcassets in Resources */,
+				4BADFA922543C1CD00BE05D0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BADFA9B2543C1CE00BE05D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BADFAA62543C1CE00BE05D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BADFA832543C1CD00BE05D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BADFA8F2543C1CD00BE05D0 /* ViewController.swift in Sources */,
+				4BADFA8B2543C1CD00BE05D0 /* AppDelegate.swift in Sources */,
+				4BADFA8D2543C1CD00BE05D0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BADFA992543C1CE00BE05D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BADFAA22543C1CE00BE05D0 /* UnsplashForKakaoPayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BADFAA42543C1CE00BE05D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BADFAAD2543C1CE00BE05D0 /* UnsplashForKakaoPayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BADFA9F2543C1CE00BE05D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BADFA862543C1CD00BE05D0 /* UnsplashForKakaoPay */;
+			targetProxy = 4BADFA9E2543C1CE00BE05D0 /* PBXContainerItemProxy */;
+		};
+		4BADFAAA2543C1CE00BE05D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BADFA862543C1CD00BE05D0 /* UnsplashForKakaoPay */;
+			targetProxy = 4BADFAA92543C1CE00BE05D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4BADFA902543C1CD00BE05D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BADFA912543C1CD00BE05D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4BADFA952543C1CD00BE05D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BADFA962543C1CD00BE05D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BADFAAF2543C1CE00BE05D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4BADFAB02543C1CE00BE05D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BADFAB22543C1CE00BE05D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UnsplashForKakaoPay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mmxsound.UnsplashForKakaoPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BADFAB32543C1CE00BE05D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UnsplashForKakaoPay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mmxsound.UnsplashForKakaoPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4BADFAB52543C1CE00BE05D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UnsplashForKakaoPayTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mmxsound.UnsplashForKakaoPayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnsplashForKakaoPay.app/UnsplashForKakaoPay";
+			};
+			name = Debug;
+		};
+		4BADFAB62543C1CE00BE05D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UnsplashForKakaoPayTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mmxsound.UnsplashForKakaoPayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnsplashForKakaoPay.app/UnsplashForKakaoPay";
+			};
+			name = Release;
+		};
+		4BADFAB82543C1CE00BE05D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UnsplashForKakaoPayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mmxsound.UnsplashForKakaoPayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UnsplashForKakaoPay;
+			};
+			name = Debug;
+		};
+		4BADFAB92543C1CE00BE05D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UnsplashForKakaoPayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mmxsound.UnsplashForKakaoPayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UnsplashForKakaoPay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BADFA822543C1CD00BE05D0 /* Build configuration list for PBXProject "UnsplashForKakaoPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BADFAAF2543C1CE00BE05D0 /* Debug */,
+				4BADFAB02543C1CE00BE05D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BADFAB12543C1CE00BE05D0 /* Build configuration list for PBXNativeTarget "UnsplashForKakaoPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BADFAB22543C1CE00BE05D0 /* Debug */,
+				4BADFAB32543C1CE00BE05D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BADFAB42543C1CE00BE05D0 /* Build configuration list for PBXNativeTarget "UnsplashForKakaoPayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BADFAB52543C1CE00BE05D0 /* Debug */,
+				4BADFAB62543C1CE00BE05D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BADFAB72543C1CE00BE05D0 /* Build configuration list for PBXNativeTarget "UnsplashForKakaoPayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BADFAB82543C1CE00BE05D0 /* Debug */,
+				4BADFAB92543C1CE00BE05D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4BADFA7F2543C1CD00BE05D0 /* Project object */;
+}

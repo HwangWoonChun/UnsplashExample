@@ -26,4 +26,5 @@
    
 * 검색 후 동작은 위의 기능 1,2 와 동일 합니다.
 <img src = "https://user-images.githubusercontent.com/8130860/97099260-807fdc00-16ca-11eb-9df1-a60693fa208b.png" width = 310 height = 672>
-
+<img src = "https://user-images.githubusercontent.com/8130860/97099280-db193800-16ca-11eb-93e9-24b27ea8152f.png" width = 310 height = 672>
+<img src = "https://user-images.githubusercontent.com/8130860/97099308-ff751480-16ca-11eb-8268-cfe8be1c177b.png" width = 310 height = 672>

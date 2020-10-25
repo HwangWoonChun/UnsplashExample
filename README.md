@@ -33,3 +33,7 @@
   <img src = "https://user-images.githubusercontent.com/8130860/97099308-ff751480-16ca-11eb-8268-cfe8be1c177b.png" width = 207 height = 368>
 </td>
 </tr>
+
+|테스트1|*강조1*|테스트3|
+|테스트1|**강조2**|테스트3|
+|테스트1|<span style="color:red">강조3</span>|테스트3|

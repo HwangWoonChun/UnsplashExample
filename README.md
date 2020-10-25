@@ -34,8 +34,6 @@
 </td>
 </tr>
 
-|제목|내용|설명|
+|목록|상세|인증|
 |---|---|---|
-|테스트1|*강조1*|테스트3|
-|테스트1|**강조2**|테스트3|
-|테스트1|<span style="color:red">강조3</span>|테스트3|
+|<img src = "https://user-images.githubusercontent.com/8130860/97099260-807fdc00-16ca-11eb-9df1-a60693fa208b.png" width = 207 height = 368>|<img src = "https://user-images.githubusercontent.com/8130860/97099280-db193800-16ca-11eb-93e9-24b27ea8152f.png" width = 207 height = 368>|<img src = "https://user-images.githubusercontent.com/8130860/97099308-ff751480-16ca-11eb-8268-cfe8be1c177b.png" width = 207 height = 368>|

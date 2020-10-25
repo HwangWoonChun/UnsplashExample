@@ -28,3 +28,4 @@
 * 검색 후 동작은 위의 기능 1,2 와 동일 합니다.
 
 <img src = "https://github.com/HwangWoonChun/UnsplashForKakaoPay/blob/master/image_1.png" width = 207 height = 367>
+<img src = "https://github.com/HwangWoonChun/SWIFTUIRecture/blob/master/03Rect_01.png" width = 268 height = 314>

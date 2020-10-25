@@ -1,10 +1,9 @@
 # UnsplashForKaKaoPay
 
-<tr>
-  <td>목록<img align = "left" src = "https://github.com/HwangWoonChun/UnsplashForKakaoPay/blob/master/image_1.png" width = 300 height = 600></td>
-  <td>인증<img align = "left" src = "https://github.com/HwangWoonChun/UnsplashForKakaoPay/blob/master/image_2.png" width = 207 height = 367></td>
-  <td>상세<img align = "left" src = "https://github.com/HwangWoonChun/UnsplashForKakaoPay/blob/master/image_3.png" width = 207 height = 367></td>
-</tr>
+# 어플레케이션 구성
+* Language: Swift
+* Deployment Target: iOS 12
+* Open source : None
 
 # 기능 1. 사진목록
 * 스크롤에 따라 사진이 자동으로 로드 되어야 합니다.
@@ -26,3 +25,9 @@
    * 텍스트 필드를 통해 키워드를 가져오고 버튼을 눌러 검색 하도록 개발
    
 * 검색 후 동작은 위의 기능 1,2 와 동일 합니다.
+
+<tr>
+  <td>목록<img align = "left" src = "https://github.com/HwangWoonChun/UnsplashForKakaoPay/blob/master/image_1.png" width = 300 height = 600></td>
+  <td>인증<img align = "left" src = "https://github.com/HwangWoonChun/UnsplashForKakaoPay/blob/master/image_2.png" width = 207 height = 367></td>
+  <td>상세<img align = "left" src = "https://github.com/HwangWoonChun/UnsplashForKakaoPay/blob/master/image_3.png" width = 207 height = 367></td>
+</tr>

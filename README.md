@@ -25,9 +25,3 @@
    * 텍스트 필드를 통해 키워드를 가져오고 버튼을 눌러 검색 하도록 개발
    
 * 검색 후 동작은 위의 기능 1,2 와 동일 합니다.
-
-<tr>
-  <td>목록<img align = "left" src = "https://github.com/HwangWoonChun/SWIFTUIRecture/blob/master/03Rect_01.png" width = "207" height = "367" /></td>
-  <td>인증<img align = "left" src = "https://github.com/HwangWoonChun/UnsplashForKakaoPay/blob/master/image/Image_1.png" width = "207" height = "367"></td>
-  <td>상세<img align = "left" src = "https://github.com/HwangWoonChun/UnsplashForKakaoPay/blob/master/image/image_4.png" width = "207" height = "367"></td>
-</tr>

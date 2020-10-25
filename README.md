@@ -28,6 +28,6 @@
 
 <tr>
   <td>목록<img align = "left" src = "https://github.com/HwangWoonChun/SWIFTUIRecture/blob/master/03Rect_01.png" width = "207" height = "367" /></td>
-  <td>인증<img align = "left" src = "https://github.com/HwangWoonChun/UnsplashForKakaoPay/blob/master/image_2.png" width = "207" height = "367"></td>
+  <td>인증<img align = "left" src = "https://github.com/HwangWoonChun/UnsplashForKakaoPay/blob/master/Image_1.png" width = "207" height = "367"></td>
   <td>상세<img align = "left" src = "https://github.com/HwangWoonChun/UnsplashForKakaoPay/blob/master/image_3.png" width = "207" height = "367"></td>
 </tr>

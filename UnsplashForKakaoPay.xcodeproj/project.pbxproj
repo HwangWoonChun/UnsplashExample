@@ -15,6 +15,15 @@
 		4BADFA972543C1CD00BE05D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BADFA952543C1CD00BE05D0 /* LaunchScreen.storyboard */; };
 		4BADFAA22543C1CE00BE05D0 /* UnsplashForKakaoPayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BADFAA12543C1CE00BE05D0 /* UnsplashForKakaoPayTests.swift */; };
 		4BADFAAD2543C1CE00BE05D0 /* UnsplashForKakaoPayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BADFAAC2543C1CE00BE05D0 /* UnsplashForKakaoPayUITests.swift */; };
+		4BADFABF2543C37100BE05D0 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BADFABE2543C37100BE05D0 /* Network.swift */; };
+		4BADFAC82543C3EF00BE05D0 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BADFAC72543C3EF00BE05D0 /* Model.swift */; };
+		4BADFAD12543C5A500BE05D0 /* PhotoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BADFAD02543C5A500BE05D0 /* PhotoViewModel.swift */; };
+		4BADFAD62543C93D00BE05D0 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BADFAD52543C93D00BE05D0 /* CustomTableViewCell.swift */; };
+		4BADFADD2543C98200BE05D0 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BADFADC2543C98200BE05D0 /* Extension.swift */; };
+		4BADFAE52543CDF900BE05D0 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BADFAE42543CDF900BE05D0 /* CustomTableViewCell.xib */; };
+		4BADFAEB2543D36700BE05D0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BADFAEA2543D36700BE05D0 /* DetailViewController.swift */; };
+		4BADFAF02543D62E00BE05D0 /* CustomCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BADFAEF2543D62E00BE05D0 /* CustomCollectionCell.swift */; };
+		4BADFAF52543D64100BE05D0 /* CustomCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BADFAF42543D64100BE05D0 /* CustomCollectionCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +58,15 @@
 		4BADFAA82543C1CE00BE05D0 /* UnsplashForKakaoPayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnsplashForKakaoPayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BADFAAC2543C1CE00BE05D0 /* UnsplashForKakaoPayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashForKakaoPayUITests.swift; sourceTree = "<group>"; };
 		4BADFAAE2543C1CE00BE05D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BADFABE2543C37100BE05D0 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		4BADFAC72543C3EF00BE05D0 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		4BADFAD02543C5A500BE05D0 /* PhotoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewModel.swift; sourceTree = "<group>"; };
+		4BADFAD52543C93D00BE05D0 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		4BADFADC2543C98200BE05D0 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		4BADFAE42543CDF900BE05D0 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		4BADFAEA2543D36700BE05D0 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		4BADFAEF2543D62E00BE05D0 /* CustomCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionCell.swift; sourceTree = "<group>"; };
+		4BADFAF42543D64100BE05D0 /* CustomCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCollectionCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +117,14 @@
 		4BADFA892543C1CD00BE05D0 /* UnsplashForKakaoPay */ = {
 			isa = PBXGroup;
 			children = (
+				4BADFADB2543C97700BE05D0 /* Extension */,
+				4BADFADA2543C94A00BE05D0 /* View */,
+				4BADFACF2543C59700BE05D0 /* ViewModel */,
+				4BADFAC62543C3CC00BE05D0 /* Model */,
+				4BADFABD2543C2C200BE05D0 /* Service */,
+				4BADFAE92543D35400BE05D0 /* ViewController */,
 				4BADFA8A2543C1CD00BE05D0 /* AppDelegate.swift */,
 				4BADFA8C2543C1CD00BE05D0 /* SceneDelegate.swift */,
-				4BADFA8E2543C1CD00BE05D0 /* ViewController.swift */,
 				4BADFA902543C1CD00BE05D0 /* Main.storyboard */,
 				4BADFA932543C1CD00BE05D0 /* Assets.xcassets */,
 				4BADFA952543C1CD00BE05D0 /* LaunchScreen.storyboard */,
@@ -126,6 +149,58 @@
 				4BADFAAE2543C1CE00BE05D0 /* Info.plist */,
 			);
 			path = UnsplashForKakaoPayUITests;
+			sourceTree = "<group>";
+		};
+		4BADFABD2543C2C200BE05D0 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				4BADFABE2543C37100BE05D0 /* Network.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		4BADFAC62543C3CC00BE05D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4BADFAC72543C3EF00BE05D0 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4BADFACF2543C59700BE05D0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4BADFAD02543C5A500BE05D0 /* PhotoViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4BADFADA2543C94A00BE05D0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4BADFAD52543C93D00BE05D0 /* CustomTableViewCell.swift */,
+				4BADFAE42543CDF900BE05D0 /* CustomTableViewCell.xib */,
+				4BADFAEF2543D62E00BE05D0 /* CustomCollectionCell.swift */,
+				4BADFAF42543D64100BE05D0 /* CustomCollectionCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4BADFADB2543C97700BE05D0 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4BADFADC2543C98200BE05D0 /* Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		4BADFAE92543D35400BE05D0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4BADFA8E2543C1CD00BE05D0 /* ViewController.swift */,
+				4BADFAEA2543D36700BE05D0 /* DetailViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +308,8 @@
 			files = (
 				4BADFA972543C1CD00BE05D0 /* LaunchScreen.storyboard in Resources */,
 				4BADFA942543C1CD00BE05D0 /* Assets.xcassets in Resources */,
+				4BADFAE52543CDF900BE05D0 /* CustomTableViewCell.xib in Resources */,
+				4BADFAF52543D64100BE05D0 /* CustomCollectionCell.xib in Resources */,
 				4BADFA922543C1CD00BE05D0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,9 +335,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BADFAEB2543D36700BE05D0 /* DetailViewController.swift in Sources */,
+				4BADFAC82543C3EF00BE05D0 /* Model.swift in Sources */,
+				4BADFAD12543C5A500BE05D0 /* PhotoViewModel.swift in Sources */,
 				4BADFA8F2543C1CD00BE05D0 /* ViewController.swift in Sources */,
 				4BADFA8B2543C1CD00BE05D0 /* AppDelegate.swift in Sources */,
+				4BADFABF2543C37100BE05D0 /* Network.swift in Sources */,
+				4BADFAF02543D62E00BE05D0 /* CustomCollectionCell.swift in Sources */,
+				4BADFAD62543C93D00BE05D0 /* CustomTableViewCell.swift in Sources */,
 				4BADFA8D2543C1CD00BE05D0 /* SceneDelegate.swift in Sources */,
+				4BADFADD2543C98200BE05D0 /* Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +450,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +505,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

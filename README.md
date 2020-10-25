@@ -1,9 +1,7 @@
 # UnsplashForKaKaoPay
 
 <tr>
-  <td>목록<img src = "https://github.com/HwangWoonChun/UnsplashForKakaoPay/blob/master/image_1.png" width = 300 height = 600></td>
-  <td>인증<img src = "https://github.com/HwangWoonChun/UnsplashForKakaoPay/blob/master/image_2.png" width = 207 height = 367></td>
-  <td>상세<img src = "https://github.com/HwangWoonChun/UnsplashForKakaoPay/blob/master/image_3.png" width = 207 height = 367></td>
+  <td>목록<img src = "https://github.com/HwangWoonChun/UnsplashForKakaoPay/blob/master/image_1.png" width = 300 height = 600></td><td>인증<img src = "https://github.com/HwangWoonChun/UnsplashForKakaoPay/blob/master/image_2.png" width = 207 height = 367></td><td>상세<img src = "https://github.com/HwangWoonChun/UnsplashForKakaoPay/blob/master/image_3.png" width = 207 height = 367></td>
 </tr>
 
 # 기능 1. 사진목록
@@ -26,6 +24,3 @@
    * 텍스트 필드를 통해 키워드를 가져오고 버튼을 눌러 검색 하도록 개발
    
 * 검색 후 동작은 위의 기능 1,2 와 동일 합니다.
-
-<img src = "https://github.com/HwangWoonChun/UnsplashForKakaoPay/blob/master/image_1.png" width = 207 height = 367>
-<img src = "https://github.com/HwangWoonChun/SWIFTUIRecture/blob/master/03Rect_01.png" width = 268 height = 314>

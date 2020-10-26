@@ -26,6 +26,8 @@
    
 * 검색 후 동작은 위의 기능 1,2 와 동일 합니다.
 
+![Alt Text](https://user-images.githubusercontent.com/8130860/97139501-0456c880-179e-11eb-8d3b-ca25324bd277.gif)
+
 <img src = "https://user-images.githubusercontent.com/8130860/97139501-0456c880-179e-11eb-8d3b-ca25324bd277.gif width = 207 height = 368>
 
 |목록||상세|

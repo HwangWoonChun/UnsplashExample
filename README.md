@@ -28,6 +28,4 @@
 
 |목록|인증|상세|
 |---|---|---|
-|<img src = "https://user-images.githubusercontent.com/8130860/97099260-807fdc00-16ca-11eb-9df1-a60693fa208b.png" width = 207 height = 368>|
-<img src = "https://user-images.githubusercontent.com/8130860/97140183-68c65780-179f-11eb-86db-6c12594db931.png" width = 207 height = 368>|
-<img src = "https://user-images.githubusercontent.com/8130860/97099308-ff751480-16ca-11eb-8268-cfe8be1c177b.png" width = 207 height = 368>|
+|<img src = "https://user-images.githubusercontent.com/8130860/97099260-807fdc00-16ca-11eb-9df1-a60693fa208b.png" width = 207 height = 368>|<img src = "https://user-images.githubusercontent.com/8130860/97140183-68c65780-179f-11eb-86db-6c12594db931.png" width = 207 height = 368>|<img src = "https://user-images.githubusercontent.com/8130860/97099308-ff751480-16ca-11eb-8268-cfe8be1c177b.png" width = 207 height = 368>|

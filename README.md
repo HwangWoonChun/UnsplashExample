@@ -28,4 +28,4 @@
 
 |목록||상세|
 |---|---|---|
-|<img src = "https://user-images.githubusercontent.com/8130860/97099260-807fdc00-16ca-11eb-9df1-a60693fa208b.png" width = 207 height = 368>|<img src = "https://user-images.githubusercontent.com/8130860/97139501-0456c880-179e-11eb-8d3b-ca25324bd277.gif>|<img src = "https://user-images.githubusercontent.com/8130860/97099308-ff751480-16ca-11eb-8268-cfe8be1c177b.png" width = 207 height = 368>|
+|<img src = "https://user-images.githubusercontent.com/8130860/97099260-807fdc00-16ca-11eb-9df1-a60693fa208b.png" width = 207 height = 368>|<img src = "https://user-images.githubusercontent.com/8130860/97139501-0456c880-179e-11eb-8d3b-ca25324bd277.gif width = 207 height = 368>|<img src = "https://user-images.githubusercontent.com/8130860/97099308-ff751480-16ca-11eb-8268-cfe8be1c177b.png" width = 207 height = 368>|

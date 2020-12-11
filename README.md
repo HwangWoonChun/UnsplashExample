@@ -1,4 +1,4 @@
-# UnsplashForKaKaoPay
+# UnsplashExample
 
 # 어플레케이션 구성
 * Language: Swift
